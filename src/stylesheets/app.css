@@ -1,0 +1,64 @@
+html {
+  height: 100%; }
+  html body {
+    background-color: #E0F2F1;
+    height: 100%; }
+    html body #introModal .icon-group,
+    html body #lessonModal .icon-group {
+      padding-bottom: 20px;
+      color: #E0E0E0; }
+      html body #introModal .icon-group .fa-fw,
+      html body #lessonModal .icon-group .fa-fw {
+        width: 0.9em; }
+      html body #introModal .icon-group .fa-building,
+      html body #lessonModal .icon-group .fa-building {
+        margin-right: 3px; }
+        html body #introModal .icon-group .fa-building::before,
+        html body #lessonModal .icon-group .fa-building::before {
+          padding-left: 5px; }
+    html body #introModal h3,
+    html body #lessonModal h3 {
+      font-family: 'Fjalla One';
+      color: #424242; }
+    html body #introModal #startApp {
+      text-align: center; }
+      html body #introModal #startApp a {
+        width: 30%;
+        margin-top: 20px; }
+    html body #lessonModal #lessonList .lessons {
+      text-align: center; }
+      html body #lessonModal #lessonList .lessons a {
+        width: 40%;
+        margin-right: 10px;
+        margin-bottom: 10px; }
+        html body #lessonModal #lessonList .lessons a.complete {
+          background-color: #9ccc65; }
+          html body #lessonModal #lessonList .lessons a.complete::before {
+            padding-right: 10px;
+            font-family: 'FontAwesome';
+            content: "\f058"; }
+    html body #mainContainer {
+      height: 100%;
+      margin: 0; }
+      html body #mainContainer #map {
+        padding: 0; }
+      html body #mainContainer #rightColumn {
+        height: 100%;
+        overflow: scroll; }
+        html body #mainContainer #rightColumn #lesson h4 {
+          text-transform: capitalize; }
+        html body #mainContainer #rightColumn #lesson .collection-item.correct {
+          background-color: #DCEDC8;
+          cursor: default; }
+          html body #mainContainer #rightColumn #lesson .collection-item.correct::before {
+            padding-right: 10px;
+            font-family: 'FontAwesome';
+            content: "\f058"; }
+    html body #map {
+      background-color: #616161;
+      height: 100%; }
+      html body #map .incorrect-answer-popup {
+        background-color: #FFCDD2;
+        padding: 5px; }
+
+/*# sourceMappingURL=app.css.map */
