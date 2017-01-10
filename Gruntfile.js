@@ -74,12 +74,6 @@ module.exports = function(grunt) {
             }
         },
         copy: {
-            fonts: {
-                expand: true,
-                cwd: 'src/fonts',
-                src: '**',
-                dest: 'build/fonts',
-            },
             data: {
                 expand: true,
                 cwd: 'src/data',
