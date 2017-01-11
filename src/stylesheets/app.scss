@@ -63,7 +63,9 @@ html {
                 overflow: scroll;
                 #lesson {
                     h4 {
-                        text-transform: capitalize;
+                        text-transform: uppercase;
+                        font-family: 'Fjalla One';
+                        color: #424242;
                     }
                     .collection-item {
                         &.correct {

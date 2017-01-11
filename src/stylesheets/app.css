@@ -46,7 +46,9 @@ html {
         height: 100%;
         overflow: scroll; }
         html body #mainContainer #rightColumn #lesson h4 {
-          text-transform: capitalize; }
+          text-transform: uppercase;
+          font-family: 'Fjalla One';
+          color: #424242; }
         html body #mainContainer #rightColumn #lesson .collection-item.correct {
           background-color: #DCEDC8;
           cursor: default; }
